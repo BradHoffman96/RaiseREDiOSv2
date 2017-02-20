@@ -131,10 +131,5 @@ class EventsTableViewController: UITableViewController {
         return cell
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        let controller = segue.destination as! ViewEventViewController
-        controller.navigationItem.prompt = " "
-        controller.event = events[(eventsTableView.indexPathForSelectedRow?.row)!]
-    }
     
 }

@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Navigation items with more than one left or right bar item" minToolsVersion="7.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -22,7 +23,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="100"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mev-Gc-y9U" id="y6U-Kf-oc0">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="99"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="locationLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGU-WW-oVq">
@@ -64,7 +65,6 @@
                                 <connections>
                                     <outlet property="eventLocationLabel" destination="FGU-WW-oVq" id="Bgq-8R-2Hq"/>
                                     <outlet property="eventTimeLabel" destination="0hT-rh-nXV" id="yMg-yp-COE"/>
-                                    <segue destination="uWg-P7-e1e" kind="show" identifier="openEvent" id="rbv-sm-5QG"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -89,7 +89,7 @@
                     <tabBarItem key="tabBarItem" title="" image="twitterInactive" id="Dpw-nC-h64">
                         <inset key="imageInsets" minX="0.0" minY="5.5" maxX="0.0" maxY="-5.5"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="p19-c5-lJI">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="p19-c5-lJI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -100,62 +100,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iAu-LY-dTh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1345" y="-264"/>
-        </scene>
-        <!--View Event View Controller-->
-        <scene sceneID="3Os-Dn-tSD">
-            <objects>
-                <viewController id="uWg-P7-e1e" customClass="ViewEventViewController" customModule="RaiseRED" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="n2r-Ob-1Vo"/>
-                        <viewControllerLayoutGuide type="bottom" id="8Z3-nd-vn0"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="yLz-H8-ytt" customClass="ViewEvemt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iI1-Nc-PK2">
-                                <rect key="frame" x="0.0" y="64" width="375" height="250"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="locationLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mNh-fa-Pb1">
-                                <rect key="frame" x="16" y="333" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="timeLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3uH-01-qit">
-                                <rect key="frame" x="16" y="362" width="343" height="21"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="descriptionLabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zbz-RD-aRG">
-                                <rect key="frame" x="16" y="407" width="230" height="21"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RXB-Hu-nfw">
-                                <rect key="frame" x="16" y="391" width="343" height="2"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.58782122461928932" green="0.58782122461928932" blue="0.58782122461928932" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <connections>
-                        <outlet property="eventDescLabel" destination="zbz-RD-aRG" id="Ri1-iw-lEH"/>
-                        <outlet property="eventImageView" destination="iI1-Nc-PK2" id="mDA-Xg-fAF"/>
-                        <outlet property="eventLocationLabel" destination="mNh-fa-Pb1" id="kgU-pT-m2O"/>
-                        <outlet property="eventTimeLabel" destination="3uH-01-qit" id="zkk-3Z-7S8"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="16v-jd-NVx" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="3108" y="452.92353823088462"/>
         </scene>
         <!--TabBar-->
         <scene sceneID="yl2-sM-qoP">
@@ -240,7 +184,7 @@
                     <tabBarItem key="tabBarItem" title="" image="instagramInactive" id="bv4-fd-G56">
                         <inset key="imageInsets" minX="0.0" minY="5.5" maxX="0.0" maxY="-5.5"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="maO-XA-6sr">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="maO-XA-6sr">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -259,7 +203,7 @@
                     <tabBarItem key="tabBarItem" title="" image="guideInactive" id="tyv-Xx-nKc">
                         <inset key="imageInsets" minX="0.0" minY="5.5" maxX="0.0" maxY="-5.5"/>
                     </tabBarItem>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="cJ9-TY-qNW">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="cJ9-TY-qNW">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -284,7 +228,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <webView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SGa-xU-V9S">
-                                <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                                <rect key="frame" x="0.0" y="94" width="375" height="600"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
@@ -312,7 +256,7 @@
                         <offsetWrapper key="titlePositionAdjustment" horizontal="0.0" vertical="0.0"/>
                     </tabBarItem>
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="7Ob-hu-Qpy">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="7Ob-hu-Qpy">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
@@ -337,21 +281,44 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <webView contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sag-qR-KIb">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sag-qR-KIb">
+                                <rect key="frame" x="0.0" y="-6" width="375" height="673"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </webView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="sag-qR-KIb" secondAttribute="bottom" id="4km-ce-HYx"/>
-                            <constraint firstItem="sag-qR-KIb" firstAttribute="top" secondItem="a9k-q7-mv2" secondAttribute="top" id="9nJ-Eg-6Jn"/>
-                            <constraint firstAttribute="trailing" secondItem="sag-qR-KIb" secondAttribute="trailing" id="ghl-w9-QG8"/>
-                            <constraint firstItem="sag-qR-KIb" firstAttribute="leading" secondItem="a9k-q7-mv2" secondAttribute="leading" id="yMP-hM-5pl"/>
-                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" image="instagramInactive" id="fut-FQ-eGQ"/>
-                    <navigationItem key="navigationItem" prompt=" " id="g5r-bT-gyT"/>
+                    <navigationItem key="navigationItem" prompt=" " id="g5r-bT-gyT">
+                        <rightBarButtonItems>
+                            <barButtonItem image="backArrow" id="St2-Zn-J60">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="q0k-KY-MsD">
+                                    <rect key="frame" x="335" y="40" width="24" height="24"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="cm_skip_forward_white"/>
+                                </button>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="goForward" destination="sag-qR-KIb" id="P9u-NY-S0I"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem image="backArrow" id="zZS-Si-tWu">
+                                <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="JWn-FU-EC8">
+                                    <rect key="frame" x="243" y="37" width="84" height="30"/>
+                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    <state key="normal" image="backArrow">
+                                        <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                        <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="goBack" destination="sag-qR-KIb" eventType="touchUpInside" id="bjq-pv-Rkn"/>
+                                    </connections>
+                                </button>
+                                <color key="tintColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                     <connections>
                         <outlet property="webview" destination="sag-qR-KIb" id="CAZ-KY-1er"/>
                     </connections>
@@ -362,6 +329,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="backArrow" width="30" height="30"/>
+        <image name="cm_skip_forward_white" width="24" height="24"/>
         <image name="eventsInactive" width="30" height="30"/>
         <image name="guideInactive" width="30" height="30"/>
         <image name="instagramInactive" width="24" height="24"/>

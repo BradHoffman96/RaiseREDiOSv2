@@ -20,7 +20,6 @@
 		9361D4641E5A859600B83C98 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4631E5A859600B83C98 /* WebViewController.swift */; };
 		9361D4661E5A85B600B83C98 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4651E5A85B600B83C98 /* StringExtension.swift */; };
 		9361D4681E5A85E000B83C98 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4671E5A85E000B83C98 /* InstagramViewController.swift */; };
-		9361D46A1E5A861200B83C98 /* ViewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4691E5A861200B83C98 /* ViewEventViewController.swift */; };
 		9361D46C1E5A862300B83C98 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D46B1E5A862300B83C98 /* Event.swift */; };
 		9361D46E1E5A864D00B83C98 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D46D1E5A864D00B83C98 /* AddEventViewController.swift */; };
 		9361D4701E5A866900B83C98 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D46F1E5A866900B83C98 /* EventsTableViewController.swift */; };
@@ -74,7 +73,6 @@
 		9361D4631E5A859600B83C98 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 		9361D4651E5A85B600B83C98 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		9361D4671E5A85E000B83C98 /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
-		9361D4691E5A861200B83C98 /* ViewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEventViewController.swift; sourceTree = "<group>"; };
 		9361D46B1E5A862300B83C98 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		9361D46D1E5A864D00B83C98 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
 		9361D46F1E5A866900B83C98 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
@@ -182,7 +180,6 @@
 				9361D4631E5A859600B83C98 /* WebViewController.swift */,
 				9361D4651E5A85B600B83C98 /* StringExtension.swift */,
 				9361D4671E5A85E000B83C98 /* InstagramViewController.swift */,
-				9361D4691E5A861200B83C98 /* ViewEventViewController.swift */,
 				9361D46D1E5A864D00B83C98 /* AddEventViewController.swift */,
 				9361D46F1E5A866900B83C98 /* EventsTableViewController.swift */,
 				9361D4711E5A869300B83C98 /* TabBarViewController.swift */,
@@ -529,7 +526,6 @@
 				9361D46E1E5A864D00B83C98 /* AddEventViewController.swift in Sources */,
 				9361D46C1E5A862300B83C98 /* Event.swift in Sources */,
 				9361D4701E5A866900B83C98 /* EventsTableViewController.swift in Sources */,
-				9361D46A1E5A861200B83C98 /* ViewEventViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
