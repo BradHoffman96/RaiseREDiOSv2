@@ -1,0 +1,6 @@
+framework module Pods_RaiseREDUITests {
+  umbrella header "Pods-RaiseREDUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

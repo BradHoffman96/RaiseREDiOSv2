@@ -1,0 +1,804 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F3344EF6F9E2FFFB5C116D5 /* Pods_RaiseREDTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D2652D6179C3A0D0CC3097E /* Pods_RaiseREDTests.framework */; };
+		66E746FBF22DDA86AEBDA84F /* Pods_RaiseREDUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6205D0A7723F217C456B4C32 /* Pods_RaiseREDUITests.framework */; };
+		934983C51E5A8C0A0089DEA6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 934983C41E5A8C0A0089DEA6 /* GoogleService-Info.plist */; };
+		934983C71E5A8DE10089DEA6 /* EventTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934983C61E5A8DE10089DEA6 /* EventTableViewCell.swift */; };
+		9361D4351E5A846E00B83C98 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4341E5A846E00B83C98 /* AppDelegate.swift */; };
+		9361D43A1E5A846E00B83C98 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9361D4381E5A846E00B83C98 /* Main.storyboard */; };
+		9361D43C1E5A846E00B83C98 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9361D43B1E5A846E00B83C98 /* Assets.xcassets */; };
+		9361D43F1E5A846E00B83C98 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9361D43D1E5A846E00B83C98 /* LaunchScreen.storyboard */; };
+		9361D44A1E5A846E00B83C98 /* RaiseREDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4491E5A846E00B83C98 /* RaiseREDTests.swift */; };
+		9361D4551E5A846E00B83C98 /* RaiseREDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4541E5A846E00B83C98 /* RaiseREDUITests.swift */; };
+		9361D4641E5A859600B83C98 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4631E5A859600B83C98 /* WebViewController.swift */; };
+		9361D4661E5A85B600B83C98 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4651E5A85B600B83C98 /* StringExtension.swift */; };
+		9361D4681E5A85E000B83C98 /* InstagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4671E5A85E000B83C98 /* InstagramViewController.swift */; };
+		9361D46A1E5A861200B83C98 /* ViewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4691E5A861200B83C98 /* ViewEventViewController.swift */; };
+		9361D46C1E5A862300B83C98 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D46B1E5A862300B83C98 /* Event.swift */; };
+		9361D46E1E5A864D00B83C98 /* AddEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D46D1E5A864D00B83C98 /* AddEventViewController.swift */; };
+		9361D4701E5A866900B83C98 /* EventsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D46F1E5A866900B83C98 /* EventsTableViewController.swift */; };
+		9361D4721E5A869300B83C98 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4711E5A869300B83C98 /* TabBarViewController.swift */; };
+		9361D4741E5A86A500B83C98 /* TwitterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9361D4731E5A86A500B83C98 /* TwitterViewController.swift */; };
+		9361D4781E5A876000B83C98 /* raiseRED_handbook_singlepages.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 9361D4771E5A876000B83C98 /* raiseRED_handbook_singlepages.pdf */; };
+		E677775B51B4F64E49F9EF44 /* Pods_RaiseRED.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47D3D6AE3DEBC25C09349812 /* Pods_RaiseRED.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9361D4461E5A846E00B83C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9361D4291E5A846E00B83C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9361D4301E5A846E00B83C98;
+			remoteInfo = RaiseRED;
+		};
+		9361D4511E5A846E00B83C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9361D4291E5A846E00B83C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9361D4301E5A846E00B83C98;
+			remoteInfo = RaiseRED;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		011CAED89BE8FF504A8E90FF /* Pods-RaiseREDTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseREDTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseREDTests/Pods-RaiseREDTests.release.xcconfig"; sourceTree = "<group>"; };
+		038858D9E25FF1654373B511 /* Pods-RaiseREDUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseREDUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseREDUITests/Pods-RaiseREDUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1D2652D6179C3A0D0CC3097E /* Pods_RaiseREDTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaiseREDTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		328AF9E6AA1598E83993CED2 /* Pods-RaiseRED.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseRED.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseRED/Pods-RaiseRED.debug.xcconfig"; sourceTree = "<group>"; };
+		3AAD582FE354F034991462BD /* Pods-RaiseREDUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseREDUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseREDUITests/Pods-RaiseREDUITests.release.xcconfig"; sourceTree = "<group>"; };
+		47D3D6AE3DEBC25C09349812 /* Pods_RaiseRED.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaiseRED.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55413625627C4EFFBF69A5E2 /* Pods-RaiseREDTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseREDTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseREDTests/Pods-RaiseREDTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6205D0A7723F217C456B4C32 /* Pods_RaiseREDUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RaiseREDUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		72C1D520A353AC69AAA1A284 /* Pods-RaiseRED.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RaiseRED.release.xcconfig"; path = "Pods/Target Support Files/Pods-RaiseRED/Pods-RaiseRED.release.xcconfig"; sourceTree = "<group>"; };
+		934983C41E5A8C0A0089DEA6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		934983C61E5A8DE10089DEA6 /* EventTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventTableViewCell.swift; sourceTree = "<group>"; };
+		9361D4311E5A846E00B83C98 /* RaiseRED.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RaiseRED.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9361D4341E5A846E00B83C98 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9361D4391E5A846E00B83C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9361D43B1E5A846E00B83C98 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9361D43E1E5A846E00B83C98 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9361D4401E5A846E00B83C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9361D4451E5A846E00B83C98 /* RaiseREDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseREDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9361D4491E5A846E00B83C98 /* RaiseREDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseREDTests.swift; sourceTree = "<group>"; };
+		9361D44B1E5A846E00B83C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9361D4501E5A846E00B83C98 /* RaiseREDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RaiseREDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9361D4541E5A846E00B83C98 /* RaiseREDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseREDUITests.swift; sourceTree = "<group>"; };
+		9361D4561E5A846E00B83C98 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9361D4631E5A859600B83C98 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		9361D4651E5A85B600B83C98 /* StringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		9361D4671E5A85E000B83C98 /* InstagramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramViewController.swift; sourceTree = "<group>"; };
+		9361D4691E5A861200B83C98 /* ViewEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewEventViewController.swift; sourceTree = "<group>"; };
+		9361D46B1E5A862300B83C98 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		9361D46D1E5A864D00B83C98 /* AddEventViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddEventViewController.swift; sourceTree = "<group>"; };
+		9361D46F1E5A866900B83C98 /* EventsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsTableViewController.swift; sourceTree = "<group>"; };
+		9361D4711E5A869300B83C98 /* TabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9361D4731E5A86A500B83C98 /* TwitterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwitterViewController.swift; sourceTree = "<group>"; };
+		9361D4771E5A876000B83C98 /* raiseRED_handbook_singlepages.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = raiseRED_handbook_singlepages.pdf; path = ../../../Downloads/raiseRED_handbook_singlepages.pdf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9361D42E1E5A846E00B83C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E677775B51B4F64E49F9EF44 /* Pods_RaiseRED.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361D4421E5A846E00B83C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3344EF6F9E2FFFB5C116D5 /* Pods_RaiseREDTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361D44D1E5A846E00B83C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66E746FBF22DDA86AEBDA84F /* Pods_RaiseREDUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F02ECF3571C7BB1B20A7A96 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				328AF9E6AA1598E83993CED2 /* Pods-RaiseRED.debug.xcconfig */,
+				72C1D520A353AC69AAA1A284 /* Pods-RaiseRED.release.xcconfig */,
+				55413625627C4EFFBF69A5E2 /* Pods-RaiseREDTests.debug.xcconfig */,
+				011CAED89BE8FF504A8E90FF /* Pods-RaiseREDTests.release.xcconfig */,
+				038858D9E25FF1654373B511 /* Pods-RaiseREDUITests.debug.xcconfig */,
+				3AAD582FE354F034991462BD /* Pods-RaiseREDUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9361D4281E5A846E00B83C98 = {
+			isa = PBXGroup;
+			children = (
+				9361D4331E5A846E00B83C98 /* RaiseRED */,
+				9361D4481E5A846E00B83C98 /* RaiseREDTests */,
+				9361D4531E5A846E00B83C98 /* RaiseREDUITests */,
+				9361D4321E5A846E00B83C98 /* Products */,
+				0F02ECF3571C7BB1B20A7A96 /* Pods */,
+				A68AD89743B1F6AE1B152334 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9361D4321E5A846E00B83C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4311E5A846E00B83C98 /* RaiseRED.app */,
+				9361D4451E5A846E00B83C98 /* RaiseREDTests.xctest */,
+				9361D4501E5A846E00B83C98 /* RaiseREDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9361D4331E5A846E00B83C98 /* RaiseRED */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4341E5A846E00B83C98 /* AppDelegate.swift */,
+				9361D46B1E5A862300B83C98 /* Event.swift */,
+				9361D4621E5A856000B83C98 /* Controllers */,
+				9361D4761E5A86DD00B83C98 /* Layout */,
+				9361D4751E5A86D600B83C98 /* Resources */,
+			);
+			path = RaiseRED;
+			sourceTree = "<group>";
+		};
+		9361D4481E5A846E00B83C98 /* RaiseREDTests */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4491E5A846E00B83C98 /* RaiseREDTests.swift */,
+				9361D44B1E5A846E00B83C98 /* Info.plist */,
+			);
+			path = RaiseREDTests;
+			sourceTree = "<group>";
+		};
+		9361D4531E5A846E00B83C98 /* RaiseREDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4541E5A846E00B83C98 /* RaiseREDUITests.swift */,
+				9361D4561E5A846E00B83C98 /* Info.plist */,
+			);
+			path = RaiseREDUITests;
+			sourceTree = "<group>";
+		};
+		9361D4621E5A856000B83C98 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4631E5A859600B83C98 /* WebViewController.swift */,
+				9361D4651E5A85B600B83C98 /* StringExtension.swift */,
+				9361D4671E5A85E000B83C98 /* InstagramViewController.swift */,
+				9361D4691E5A861200B83C98 /* ViewEventViewController.swift */,
+				9361D46D1E5A864D00B83C98 /* AddEventViewController.swift */,
+				9361D46F1E5A866900B83C98 /* EventsTableViewController.swift */,
+				9361D4711E5A869300B83C98 /* TabBarViewController.swift */,
+				9361D4731E5A86A500B83C98 /* TwitterViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		9361D4751E5A86D600B83C98 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4771E5A876000B83C98 /* raiseRED_handbook_singlepages.pdf */,
+				9361D43B1E5A846E00B83C98 /* Assets.xcassets */,
+				9361D4401E5A846E00B83C98 /* Info.plist */,
+				934983C41E5A8C0A0089DEA6 /* GoogleService-Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9361D4761E5A86DD00B83C98 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9361D4381E5A846E00B83C98 /* Main.storyboard */,
+				9361D43D1E5A846E00B83C98 /* LaunchScreen.storyboard */,
+				934983C61E5A8DE10089DEA6 /* EventTableViewCell.swift */,
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		A68AD89743B1F6AE1B152334 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				47D3D6AE3DEBC25C09349812 /* Pods_RaiseRED.framework */,
+				1D2652D6179C3A0D0CC3097E /* Pods_RaiseREDTests.framework */,
+				6205D0A7723F217C456B4C32 /* Pods_RaiseREDUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9361D4301E5A846E00B83C98 /* RaiseRED */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9361D4591E5A846E00B83C98 /* Build configuration list for PBXNativeTarget "RaiseRED" */;
+			buildPhases = (
+				97B3809F14055D798EE1885E /* [CP] Check Pods Manifest.lock */,
+				9361D42D1E5A846E00B83C98 /* Sources */,
+				9361D42E1E5A846E00B83C98 /* Frameworks */,
+				9361D42F1E5A846E00B83C98 /* Resources */,
+				4D320247A8A98A8E9ED10B6E /* [CP] Embed Pods Frameworks */,
+				7717009C76D8F8CEA3320370 /* [CP] Copy Pods Resources */,
+				9361D4791E5A881D00B83C98 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RaiseRED;
+			productName = RaiseRED;
+			productReference = 9361D4311E5A846E00B83C98 /* RaiseRED.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9361D4441E5A846E00B83C98 /* RaiseREDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9361D45C1E5A846E00B83C98 /* Build configuration list for PBXNativeTarget "RaiseREDTests" */;
+			buildPhases = (
+				A60EA54DED17E94CDB8306C1 /* [CP] Check Pods Manifest.lock */,
+				9361D4411E5A846E00B83C98 /* Sources */,
+				9361D4421E5A846E00B83C98 /* Frameworks */,
+				9361D4431E5A846E00B83C98 /* Resources */,
+				8ED0A8B774F82055DB5323D9 /* [CP] Embed Pods Frameworks */,
+				D2E22D95B1BEAB4B14DBB94B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9361D4471E5A846E00B83C98 /* PBXTargetDependency */,
+			);
+			name = RaiseREDTests;
+			productName = RaiseREDTests;
+			productReference = 9361D4451E5A846E00B83C98 /* RaiseREDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9361D44F1E5A846E00B83C98 /* RaiseREDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9361D45F1E5A846E00B83C98 /* Build configuration list for PBXNativeTarget "RaiseREDUITests" */;
+			buildPhases = (
+				882AC62D833E023981BDDD45 /* [CP] Check Pods Manifest.lock */,
+				9361D44C1E5A846E00B83C98 /* Sources */,
+				9361D44D1E5A846E00B83C98 /* Frameworks */,
+				9361D44E1E5A846E00B83C98 /* Resources */,
+				5D82235AA1851ED367427684 /* [CP] Copy Pods Resources */,
+				9725F54B1D5F4B048383B4CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9361D4521E5A846E00B83C98 /* PBXTargetDependency */,
+			);
+			name = RaiseREDUITests;
+			productName = RaiseREDUITests;
+			productReference = 9361D4501E5A846E00B83C98 /* RaiseREDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9361D4291E5A846E00B83C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "BSB-FBGM-B";
+				TargetAttributes = {
+					9361D4301E5A846E00B83C98 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					9361D4441E5A846E00B83C98 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9361D4301E5A846E00B83C98;
+					};
+					9361D44F1E5A846E00B83C98 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9361D4301E5A846E00B83C98;
+					};
+				};
+			};
+			buildConfigurationList = 9361D42C1E5A846E00B83C98 /* Build configuration list for PBXProject "RaiseRED" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9361D4281E5A846E00B83C98;
+			productRefGroup = 9361D4321E5A846E00B83C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9361D4301E5A846E00B83C98 /* RaiseRED */,
+				9361D4441E5A846E00B83C98 /* RaiseREDTests */,
+				9361D44F1E5A846E00B83C98 /* RaiseREDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9361D42F1E5A846E00B83C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9361D43F1E5A846E00B83C98 /* LaunchScreen.storyboard in Resources */,
+				9361D43C1E5A846E00B83C98 /* Assets.xcassets in Resources */,
+				934983C51E5A8C0A0089DEA6 /* GoogleService-Info.plist in Resources */,
+				9361D4781E5A876000B83C98 /* raiseRED_handbook_singlepages.pdf in Resources */,
+				9361D43A1E5A846E00B83C98 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361D4431E5A846E00B83C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361D44E1E5A846E00B83C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4D320247A8A98A8E9ED10B6E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseRED/Pods-RaiseRED-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D82235AA1851ED367427684 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseREDUITests/Pods-RaiseREDUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7717009C76D8F8CEA3320370 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseRED/Pods-RaiseRED-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		882AC62D833E023981BDDD45 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8ED0A8B774F82055DB5323D9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseREDTests/Pods-RaiseREDTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9361D4791E5A881D00B83C98 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\" e274b1e2973941faaa5f104bef392ace5ca789cf f3e8b08cdf130c7c4a5cb1dfa9aa82f441b5ab955ead34504c3858d243b6d5b9";
+		};
+		9725F54B1D5F4B048383B4CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseREDUITests/Pods-RaiseREDUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97B3809F14055D798EE1885E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A60EA54DED17E94CDB8306C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D2E22D95B1BEAB4B14DBB94B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RaiseREDTests/Pods-RaiseREDTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9361D42D1E5A846E00B83C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9361D4351E5A846E00B83C98 /* AppDelegate.swift in Sources */,
+				934983C71E5A8DE10089DEA6 /* EventTableViewCell.swift in Sources */,
+				9361D4681E5A85E000B83C98 /* InstagramViewController.swift in Sources */,
+				9361D4741E5A86A500B83C98 /* TwitterViewController.swift in Sources */,
+				9361D4641E5A859600B83C98 /* WebViewController.swift in Sources */,
+				9361D4661E5A85B600B83C98 /* StringExtension.swift in Sources */,
+				9361D4721E5A869300B83C98 /* TabBarViewController.swift in Sources */,
+				9361D46E1E5A864D00B83C98 /* AddEventViewController.swift in Sources */,
+				9361D46C1E5A862300B83C98 /* Event.swift in Sources */,
+				9361D4701E5A866900B83C98 /* EventsTableViewController.swift in Sources */,
+				9361D46A1E5A861200B83C98 /* ViewEventViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361D4411E5A846E00B83C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9361D44A1E5A846E00B83C98 /* RaiseREDTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9361D44C1E5A846E00B83C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9361D4551E5A846E00B83C98 /* RaiseREDUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9361D4471E5A846E00B83C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9361D4301E5A846E00B83C98 /* RaiseRED */;
+			targetProxy = 9361D4461E5A846E00B83C98 /* PBXContainerItemProxy */;
+		};
+		9361D4521E5A846E00B83C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9361D4301E5A846E00B83C98 /* RaiseRED */;
+			targetProxy = 9361D4511E5A846E00B83C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9361D4381E5A846E00B83C98 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9361D4391E5A846E00B83C98 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9361D43D1E5A846E00B83C98 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9361D43E1E5A846E00B83C98 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9361D4571E5A846E00B83C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9361D4581E5A846E00B83C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9361D45A1E5A846E00B83C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 328AF9E6AA1598E83993CED2 /* Pods-RaiseRED.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaiseRED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.createlou.RaiseRED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Debug;
+		};
+		9361D45B1E5A846E00B83C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72C1D520A353AC69AAA1A284 /* Pods-RaiseRED.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RaiseRED/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.createlou.RaiseRED;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0.1;
+			};
+			name = Release;
+		};
+		9361D45D1E5A846E00B83C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55413625627C4EFFBF69A5E2 /* Pods-RaiseREDTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaiseREDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.createlou.RaiseREDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaiseRED.app/RaiseRED";
+			};
+			name = Debug;
+		};
+		9361D45E1E5A846E00B83C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011CAED89BE8FF504A8E90FF /* Pods-RaiseREDTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RaiseREDTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.createlou.RaiseREDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RaiseRED.app/RaiseRED";
+			};
+			name = Release;
+		};
+		9361D4601E5A846E00B83C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038858D9E25FF1654373B511 /* Pods-RaiseREDUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RaiseREDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.createlou.RaiseREDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RaiseRED;
+			};
+			name = Debug;
+		};
+		9361D4611E5A846E00B83C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAD582FE354F034991462BD /* Pods-RaiseREDUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = RaiseREDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = co.createlou.RaiseREDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = RaiseRED;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9361D42C1E5A846E00B83C98 /* Build configuration list for PBXProject "RaiseRED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9361D4571E5A846E00B83C98 /* Debug */,
+				9361D4581E5A846E00B83C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9361D4591E5A846E00B83C98 /* Build configuration list for PBXNativeTarget "RaiseRED" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9361D45A1E5A846E00B83C98 /* Debug */,
+				9361D45B1E5A846E00B83C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9361D45C1E5A846E00B83C98 /* Build configuration list for PBXNativeTarget "RaiseREDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9361D45D1E5A846E00B83C98 /* Debug */,
+				9361D45E1E5A846E00B83C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9361D45F1E5A846E00B83C98 /* Build configuration list for PBXNativeTarget "RaiseREDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9361D4601E5A846E00B83C98 /* Debug */,
+				9361D4611E5A846E00B83C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9361D4291E5A846E00B83C98 /* Project object */;
+}
